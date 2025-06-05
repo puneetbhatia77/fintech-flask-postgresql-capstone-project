@@ -2,11 +2,11 @@
 
 # Setup PostgreSQL server
 
-psql -U postgres -h localhost -p 5432                   # login to PostgreSQL
-CREATE DATABASE fintechdb;                              # create Database
-\l                                                      # list databases
-exit                                                    # come out of PostgreSQL
-psql -U postgres -d fintechdb -h localhost -p 5432      # login to PostgreSQL with given database
+psql -U postgres -h localhost -p 5432                   // login to PostgreSQL
+CREATE DATABASE fintechdb;                              // create Database
+\l                                                      // list databases
+exit                                                    // come out of PostgreSQL
+psql -U postgres -d fintechdb -h localhost -p 5432      // login to PostgreSQL with given database
 -------------------------------------------------------------------------------------------------------
 
 # Run flask app locally
