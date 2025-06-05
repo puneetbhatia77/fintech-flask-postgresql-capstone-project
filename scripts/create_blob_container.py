@@ -1,0 +1,1 @@
+# Script to create Azure Blob container

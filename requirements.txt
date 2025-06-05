@@ -1,0 +1,7 @@
+Flask==2.2.5
+Flask-SQLAlchemy==2.5.1
+gunicorn==21.2.0
+psycopg2-binary==2.9.9
+SQLAlchemy==1.4.50
+alembic==1.12.1
+python-dotenv==1.0.0
