@@ -44,7 +44,7 @@ docker run --env-file .env -p 5000:5000 fintech_app:V4
 or
 #### To register new user, run docker command with "host.docker.internal" user instead of localhost
 
-docker run -e 'DB_URL="postgresql://postgres:Word2Vec@host.docker.internal:5432/fintechdb:V4"' -p 5000:5000 fintech_app:V4
+docker run -e 'DB_URL="postgresql://<username>:<password>@host.docker.internal:5432/fintechdb:V4"' -p 5000:5000 fintech_app:V4
 
 
 
